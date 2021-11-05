@@ -1,0 +1,10 @@
+<!-- 定义模板 -->
+<template name="myTemp">
+  <view>
+    <view class="title">这是我自定义的模板内容</view>
+    <view class="userInfo">
+      <view class="userName">用户名:{{username}}</view>
+      <view class="age">年龄:{{age}}</view>
+    </view>
+  </view>
+</template>

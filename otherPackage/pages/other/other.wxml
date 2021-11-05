@@ -1,0 +1,6 @@
+<!--otherPackage/pages/other/other.wxml-->
+<import src="/template/myTemplate/myTemplate"/>
+<view class="otherContainer">
+  <template is="myTemp" data="{{...person}}"></template>
+  
+</view>
